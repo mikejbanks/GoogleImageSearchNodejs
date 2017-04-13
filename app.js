@@ -1,4 +1,3 @@
-/*Live version https://imgsrablyfcc.herokuapp.com/ Use /api/imagesearch/searchterm?offset=number to search for images by term or /api/latest/imagesearch/  to see latest searches */
 require('dotenv').config()
 var imageSearch = require('node-google-image-search');
 var url=require('url');
